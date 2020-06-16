@@ -1,44 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# IR-Assignment # 1 
+## Implementation:
+- Indexed Given Documents of Trump Speeches using a Inverted Index. 
+- Designed a Query Engine using a Abstract Syntax Tree that can parse complex Boolean queries that have nested brackets.
+- Pickled the inverted index for quick retrieval for query purposes.
+## Files:
+### Jupyter Notebook:
+The Notebook Contains a Inverted Index Implementation with options to query Boolean, Phrasal, Proximity Queries.
 
-## Available Scripts
+- Check Notebook : IR-A1-K173654.ipynb
 
-In the project directory, you can run:
+### Desktop System:
+A GUI Based Executable is present that provides a Desktop Interface to the Django based web server which holds the implementation of Inverted Index hosted on Heroku. It can evaluate and return results for queries.
 
-### `yarn start`
+- Check Zip File For Desktop GUI Code : IR-SYS-A1
+    - Repo Link: [Click Here](https://github.com/hassan11196/IR-SYS-A1)
+- Check Folder For Desktop GUI Executable : IR-APP-A1
+    - Exe File: [Click Here](http://www.mediafire.com/file/u3zqzu1lvfpeedw/IR-SYS-A1-K173654_Setup_1.0.0.exe/file)
+- Check Folder For Python Django Web Server : IR-SERVER-A1
+    - Repo Link: [Click Here](https://github.com/hassan11196/IR-A1/tree/master/DjangoApp/IRA1)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Web System:
+A Web Application is hosted at  [https://ira1.netlify.com/#/](https://ira1.netlify.com/#/) .
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Check Zip File for Web Interface Code : IR-WEB-A1
+    - Repo Link : [Click Here](https://github.com/hassan11196/IR-WEB-A1)
+### ScreenShots:
 
-### `yarn test`
+![](Screenshots/Annotation&#32;2020-03-10&#32;205835.png)
+![](Screenshots/Annotation&#32;2020-03-10&#32;205849.png)
+![](Screenshots/Annotation&#32;2020-03-10&#32;205854.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built Using:
 
-### `yarn build`
+<div align="center">
+<a href="https://www.djangoproject.com/"><img height='114' width='100' src="./internals/img/django.svg" /></a>
+<a href="https://jupyter.org/"><img height='114' width='100' src="./internals/img/jupyter.png" /></a>
+<br/>
+  <a href="https://facebook.github.io/react/"><img src="./internals/img/react-padded-90.png" /></a>
+  <a href="https://webpack.github.io/"><img src="./internals/img/webpack-padded-90.png" /></a>
+  <a href="https://redux.js.org/"><img src="./internals/img/redux-padded-90.png" /></a>
+  <a href="https://github.com/ReactTraining/react-router"><img src="./internals/img/react-router-padded-90.png" /></a>
+  <a href="https://eslint.org/"><img src="./internals/img/eslint-padded-90.png" /></a>
+  <a href="https://facebook.github.io/jest/"><img src="./internals/img/jest-padded-90.png" /></a>
+  <a href="https://yarnpkg.com/"><img src="./internals/img/yarn-padded-90.png" /></a>
+</div>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr />
+<br />
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Template:
+- [electron react boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
